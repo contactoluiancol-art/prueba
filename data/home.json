@@ -1,0 +1,11 @@
+
+{
+ "title":"Repositorio Corporativo",
+ "banner":"https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200",
+ "cards":[
+  {"name":"(Categoría 1)","description":"Repositorio de recursos"},
+  {"name":"(Categoría 2)","description":"Repositorio de documentos"},
+  {"name":"(Categoría 3)","description":"Repositorio multimedia"},
+  {"name":"(Categoría 4)","description":"Repositorio general"}
+ ]
+}
