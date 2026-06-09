@@ -1,0 +1,8 @@
+{
+"repositories":[
+{"name":"Documentación","description":"Biblioteca documental"},
+{"name":"Proyectos","description":"Gestión de proyectos"},
+{"name":"Multimedia","description":"Imágenes y videos"},
+{"name":"Recursos","description":"Recursos generales"}
+]
+}

@@ -1,16 +1,10 @@
 
-fetch('data/home.json')
+fetch('data/repositories.json')
 .then(r=>r.json())
 .then(data=>{
-document.getElementById('banner').innerHTML=`
-<div class="banner" style="background-image:url('${data.banner}')">
-<h1>${data.title}</h1>
-</div>`;
-
-document.getElementById('cards').innerHTML=data.cards.map(c=>`
+document.getElementById('cards').innerHTML=data.repositories.map(r=>`
 <div class="card" onclick="location.href='pages/repository.html'">
-<h2>${c.name}</h2>
-<p>${c.description}</p>
-</div>
-`).join('');
+<h3>${r.name}</h3>
+<p>${r.description}</p>
+</div>`).join('');
 });
