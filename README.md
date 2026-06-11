@@ -1,11 +1,2 @@
-# Plataforma V2 Arquitectura
-
-Estructura:
-- index.html
-- pages
-- css
-- js
-- data
-- assets
-- components
-- docs
+# V3 Funcional
+Banner + 4 módulos navegables + layout 25/75
