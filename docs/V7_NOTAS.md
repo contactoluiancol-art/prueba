@@ -1,0 +1,1 @@
+Basado en la maqueta aprobada EI. Próximo paso: convertir todo a componentes y JSON dinámico.
