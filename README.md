@@ -1,2 +1,1 @@
-# Repositorio Profesional V4
-Versión visual funcional.
+V6 UX PRO - Home rediseñada

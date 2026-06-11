@@ -1,22 +1,82 @@
 <!DOCTYPE html>
-<html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Plataforma de Conocimiento V5</title>
-<link rel="stylesheet" href="css/global.css"></head>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Knowledge Hub V6</title>
+<link rel="stylesheet" href="css/global.css">
+</head>
 <body>
-<header class="topbar"><div>📚 Knowledge Hub</div><input placeholder="Buscar..."><div>🔔 👤</div></header>
-<section class="hero"><div class="overlay"><h1>Plataforma Modular de Conocimiento y Desarrollo</h1><p>Repositorio de documentos, proyectos, recursos e ideas</p></div></section>
+
+<header class="topbar">
+<div class="logo">📚 Knowledge Hub</div>
+<input type="search" placeholder="Buscar documentación, proyectos o recursos...">
+<div>🔔 👤</div>
+</header>
+
+<section class="hero">
+<div class="overlay">
+<h1>Plataforma Modular de Conocimiento y Desarrollo</h1>
+<p>Documentación • Desarrollo • Recursos • Innovación</p>
+<button>Explorar Plataforma</button>
+</div>
+</section>
+
+<section class="stats">
+<div class="stat"><h2>12</h2><span>Repositorios</span></div>
+<div class="stat"><h2>5</h2><span>Proyectos</span></div>
+<div class="stat"><h2>87</h2><span>Documentos</span></div>
+<div class="stat"><h2>150</h2><span>Recursos</span></div>
+</section>
 
 <section class="cards">
-<a class="card" href="pages/conocimiento.html"><h3>📚 Base de Conocimiento</h3><p>Manuales, guías y procedimientos</p></a>
-<a class="card" href="pages/desarrollo.html"><h3>💻 Desarrollo Luis Grisales</h3><p>Repositorios y proyectos</p></a>
-<a class="card" href="pages/recursos.html"><h3>📦 Recursos</h3><p>Biblioteca multimedia</p></a>
-<a class="card" href="pages/laboratorio.html"><h3>🚀 Laboratorio</h3><p>Ideas y experimentos</p></a>
+<a class="card" href="pages/conocimiento.html">
+<h3>📚 Base de Conocimiento</h3>
+<p>Manuales, procedimientos y guías</p>
+<span>Entrar →</span>
+</a>
+
+<a class="card" href="pages/desarrollo.html">
+<h3>💻 Desarrollo Luis Grisales</h3>
+<p>Repositorios y proyectos</p>
+<span>Entrar →</span>
+</a>
+
+<a class="card" href="pages/recursos.html">
+<h3>📦 Recursos</h3>
+<p>Biblioteca multimedia</p>
+<span>Entrar →</span>
+</a>
+
+<a class="card" href="pages/laboratorio.html">
+<h3>🚀 Laboratorio</h3>
+<p>Ideas y experimentos</p>
+<span>Entrar →</span>
+</a>
 </section>
 
-<section class="dashboard">
-<div class="panel"><h3>Actividad reciente</h3><ul><li>Proyecto ERP</li><li>API Inventarios</li><li>Manual Logístico</li></ul></div>
-<div class="panel"><h3>Recursos destacados</h3><ul><li>Node.js</li><li>JavaScript</li><li>Auditoría</li></ul></div>
-<div class="panel"><h3>Favoritos</h3><ul><li>Desarrollo</li><li>Recursos</li></ul></div>
+<section class="dashboard-grid">
+<div class="panel">
+<h2>Actividad Reciente</h2>
+<div class="item">ERP Auditoría - Hace 2 horas</div>
+<div class="item">API Compras - Hace 1 día</div>
+<div class="item">Manual Inventarios - Hace 3 días</div>
+</div>
+
+<div class="panel">
+<h2>Recursos Destacados</h2>
+<div class="item">Node.js</div>
+<div class="item">JavaScript</div>
+<div class="item">Auditoría</div>
+</div>
+
+<div class="panel">
+<h2>Favoritos</h2>
+<div class="item">Desarrollo</div>
+<div class="item">Recursos</div>
+<div class="item">Proyectos</div>
+</div>
 </section>
-<script src="js/app.js"></script>
-</body></html>
+
+</body>
+</html>

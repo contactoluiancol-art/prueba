@@ -1,1 +1,1 @@
-console.log('Repositorio Profesional V4');
+// V6 UX PRO
