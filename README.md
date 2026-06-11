@@ -1,2 +1,2 @@
-# V3 Funcional
-Banner + 4 módulos navegables + layout 25/75
+# Repositorio Profesional V4
+Versión visual funcional.

@@ -1,8 +1,1 @@
-{
-"banner":"https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1400",
-"modules":[
-{"name":"📚 Base de Conocimiento","page":"conocimiento","desc":"Manuales y guías"},
-{"name":"💻 Desarrollo","page":"desarrollo","desc":"HTML CSS JS Node"},
-{"name":"📦 Recursos","page":"recursos","desc":"Archivos y recursos"},
-{"name":"🚀 Laboratorio","page":"laboratorio","desc":"Ideas y prototipos"}
-]}
+{"status":"v4"}
