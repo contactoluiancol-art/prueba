@@ -2,26 +2,26 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Repositorio Profesional</title>
-<link rel="stylesheet" href="css/global.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plataforma Modular</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header class="hero">
-<div class="hero-content">
-<h1>Repositorio Profesional</h1>
-<input type="text" placeholder="Buscar documentos, etiquetas o recursos...">
-</div>
+
+<header class="topbar">
+  <div class="logo">PLATAFORMA</div>
+  <input type="search" placeholder="Buscar...">
+  <div>🔔 👤</div>
 </header>
 
-<section id="cards" class="cards"></section>
+<section id="banner" class="banner"></section>
 
-<section class="dashboard">
-<h2>Actividad reciente</h2>
-<div class="panel">Próximamente...</div>
+<section id="modules" class="modules"></section>
 
-<h2>Recursos destacados</h2>
-<div class="panel">Próximamente...</div>
+<section class="quick-panel">
+  <div class="widget">Actividad Reciente</div>
+  <div class="widget">Favoritos</div>
+  <div class="widget">Recursos Destacados</div>
 </section>
 
 <script src="js/app.js"></script>

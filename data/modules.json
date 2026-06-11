@@ -1,0 +1,26 @@
+
+{
+ "banner":{
+  "title":"Plataforma Modular",
+  "subtitle":"Repositorio Inteligente",
+  "image":"https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200"
+ },
+ "modules":[
+  {
+   "title":"Documentación",
+   "description":"Gestión documental"
+  },
+  {
+   "title":"Multimedia",
+   "description":"Videos e imágenes"
+  },
+  {
+   "title":"Recursos",
+   "description":"Biblioteca de recursos"
+  },
+  {
+   "title":"Desarrollo",
+   "description":"Componentes y proyectos"
+  }
+ ]
+}
