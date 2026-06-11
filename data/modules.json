@@ -1,1 +1,1 @@
-{"banner":{"title":"Plataforma Logística","subtitle":"Centro de Recursos y Gestión","image":"https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=1400"},"modules":[{"title":"📚 Documentación","description":"Manuales y procedimientos"},{"title":"🖼 Multimedia","description":"Imágenes y videos"},{"title":"📦 Recursos","description":"Biblioteca de recursos"},{"title":"💻 Desarrollo","description":"Proyectos y componentes"}]}
+{"modules":["Base de Conocimiento","Desarrollo","Recursos","Laboratorio"]}

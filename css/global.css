@@ -1,15 +1,1 @@
-
-*{margin:0;padding:0;box-sizing:border-box}
-body{font-family:Segoe UI,Arial,sans-serif;background:#f4f6f8}
-.hero{height:220px;background:linear-gradient(135deg,#1e293b,#334155);display:flex;align-items:center;justify-content:center;color:white}
-.hero-content{text-align:center}
-.hero input{margin-top:15px;padding:12px;width:min(700px,90vw)}
-.cards{max-width:1400px;margin:30px auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;padding:20px}
-.card,.panel{background:white;padding:25px;border-radius:16px;box-shadow:0 2px 10px rgba(0,0,0,.1)}
-.card{cursor:pointer}
-.dashboard{max-width:1400px;margin:auto;padding:20px}
-.topbar{background:white;padding:25px}
-.layout{display:grid;grid-template-columns:25% 75%;min-height:calc(100vh - 100px)}
-.sidebar{background:white;padding:20px;border-right:1px solid #ddd}
-.workspace{padding:25px}
-@media(max-width:768px){.layout{grid-template-columns:1fr}}
+body{font-family:Segoe UI,sans-serif;} /* arquitectura base */
