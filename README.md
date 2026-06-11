@@ -1,1 +1,1 @@
-V6 UX PRO - Home rediseñada
+# V7.1 Full UI Base
